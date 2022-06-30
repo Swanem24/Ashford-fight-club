@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+body {
+    background-color: midnightblue;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'League Gothic', sans-serif;
+}
+
+header {
+    background-color: brown;
+    width: 100%;
+}
+
+header a {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+header a:active {
+    color: yellow;
+    opacity: 50%;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.banner {
+    margin: 100px 100px;
+    background-image: url("mma_sparring.jpg");
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px black;
+}
+
+.banner h2 {
+    font-size: 100px;
+}
+
+.intro {
+    width: 100%;
+    height: auto;
+    margin: 0px 50px;
+    background-color: gray;
+}
+
+.intro h2 {
+    font-weight: lighter;
+    margin-left: 20px;
+    font-size: 32px;
+    word-spacing: 20px;
+}
+
+.intro p {
+    font-size: 24px;
+    margin-left: 20px;
+    word-spacing: 5px;
+}
+
+#picture-panel {
+    display: flex;
+    justify-content: center;
+}
+
+#picture-display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+#picture-display img {
+    border: 3px solid black;
+    height: 350px;
+    width: 400px;
+}
+
+#picture-display label {
+    font-size: 24px;
+}
+
+.the-founder {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.the-founder h2 {
+    font-size: 52px;
+}
+
+.meet-up {
+    background-color: darkred;
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-up h2 {
+    font-size: 52px;
+}
+
+@media only screen and (max-width: 1048px) {
+    header {
+        width: auto;
+    }
+
+    #picture-display {
+        width: auto;
+        height: auto;
+    }
+}
